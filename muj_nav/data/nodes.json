@@ -1,0 +1,12 @@
+[
+  { "id": "N1", "qrId": "QR-N1", "label": "Main Gate", "position": { "x": 0, "y": 0, "z": 0 } },
+  { "id": "N2", "qrId": "QR-N2", "label": "Crossroad A", "position": { "x": 10, "y": 0, "z": 0 } },
+  { "id": "N3", "qrId": "QR-N3", "label": "Library", "position": { "x": 20, "y": 0, "z": -5 } },
+  { "id": "N4", "qrId": "QR-N4", "label": "Auditorium", "position": { "x": 25, "y": 0, "z": 10 } },
+  { "id": "N5", "qrId": "QR-N5", "label": "Canteen", "position": { "x": 8, "y": 0, "z": 15 } },
+  { "id": "N6", "qrId": "QR-N6", "label": "Engineering Block", "position": { "x": -5, "y": 0, "z": 12 } },
+  { "id": "N7", "qrId": "QR-N7", "label": "Admin Office", "position": { "x": -12, "y": 0, "z": 4 } },
+  { "id": "N8", "qrId": "QR-N8", "label": "Sports Complex", "position": { "x": -18, "y": 0, "z": -6 } },
+  { "id": "N9", "qrId": "QR-N9", "label": "Hostel", "position": { "x": -6, "y": 0, "z": -14 } }
+]
+
