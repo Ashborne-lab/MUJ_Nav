@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MUJ Campus Navigator</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <div id="app-root">
+        <div id="topbar">
+            <div class="left-controls">
+                <label for="destinationSelect">Destination</label>
+                <select id="destinationSelect"></select>
+                <button id="clearPathBtn" title="Clear path">Clear</button>
+            </div>
+            <div class="right-controls">
+                <span id="currentLocationLabel">Start: —</span>
+                <button id="scanQrBtn" title="Scan QR to set your current location">Scan QR</button>
+            </div>
+        </div>
+
+        <div id="viewport"></div>
+
+        <div id="chatbar">
+            <input id="chatInput" type="text" placeholder="Ask me: Where is the library?" />
+            <button id="chatSendBtn">Ask</button>
+            <div id="chatHint">Tip: Try "Where do I pay my fees?"</div>
+        </div>
+
+        <div id="overlay" class="hidden"></div>
+
+        <!-- QR Modal -->
+        <div id="qrModal" class="modal hidden">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Scan QR Code</h3>
+                    <button id="qrCloseBtn" class="icon-btn" title="Close">✕</button>
+                </div>
+                <div class="modal-body">
+                    <video id="qrVideo" muted playsinline></video>
+                    <div class="manual-qr">
+                        <input id="manualQrInput" type="text" placeholder="Enter QR ID or Node ID" />
+                        <button id="manualQrSubmit">Set Location</button>
+                    </div>
+                    <div class="qr-help">If camera access is blocked, enter the QR text or node id printed near the code.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- App entry (ES Modules) -->
+    <script type="module" src="./app.js"></script>
+</body>
+
+</html>
+

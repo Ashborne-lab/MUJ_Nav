@@ -1,0 +1,23 @@
+{
+  "locations": {
+    "library": { "name": "Central Library", "nodeId": "N3" },
+    "admin":   { "name": "Administration Office", "nodeId": "N7" },
+    "canteen": { "name": "Main Canteen", "nodeId": "N5" },
+    "hostel":  { "name": "Hostel Block", "nodeId": "N9" },
+    "auditorium": { "name": "Auditorium", "nodeId": "N4" },
+    "sports": { "name": "Sports Complex", "nodeId": "N8" },
+    "engineering": { "name": "Engineering Block", "nodeId": "N6" },
+    "gate": { "name": "Main Gate", "nodeId": "N1" }
+  },
+  "keywords": {
+    "library": ["library", "books", "reading"],
+    "admin": ["admin", "fees", "admission", "accounts", "office"],
+    "canteen": ["canteen", "cafeteria", "food", "eat"],
+    "hostel": ["hostel", "dorm", "residence"],
+    "auditorium": ["auditorium", "event hall", "seminar"],
+    "sports": ["sports", "gym", "play", "ground"],
+    "engineering": ["engineering", "labs", "workshop"],
+    "gate": ["gate", "entrance", "main gate"]
+  }
+}
+
